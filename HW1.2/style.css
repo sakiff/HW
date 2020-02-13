@@ -1,0 +1,22 @@
+title{
+  display: block;
+  font-family: Courier New;
+  text-align: center;
+
+
+}
+
+body{
+  display: block;
+  font-family: Courier New;
+  text-align: left;
+  padding: 25px;
+  background-color: #006400;
+  color: yellow;
+}
+
+h1{
+  display: block;
+  font-family: Courier New;
+  text-align: center;
+}
