@@ -1,0 +1,85 @@
+  
+body{
+    
+    background-color: #e9eaea;
+    padding: 0;
+    margin: 10px;
+    font-family: Verdana;
+    border: solid teal;
+}
+
+.container{
+  float: right;
+  background-color: lightgrey;
+  width: 300px;
+  margin-top: 5%;
+  height: 300px;
+}
+
+h2{
+    font-family: Verdana;
+    background-color: teal;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: max-content;
+    font-size: 68px;
+    padding: 30px;
+    line-height: 20px; 
+}
+
+
+.signup, .login{
+  width: 50%;
+  height: 60px;
+  float: left;
+  background-color: white;
+  text-align: center; 
+  line-height: 60px;
+  cursor: pointer;
+  text-transform: uppercase;
+  
+}
+
+.signup-form{
+  background-color: white;
+  box-sizing: border-box;
+  padding: 30px;
+  height: 250px;
+  clear: both;
+}
+
+.login-form{
+  background-color: white;
+  box-sizing: border-box;
+  padding: 30px;
+  height: 250px;
+  clear: both;
+}
+
+.create-button, .login-button{
+  color: white;
+  background-color: teal;
+  border-radius: 20px;
+  text-align: center;
+  font-family: verdana;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 25px;
+  margin-left: 1px;
+  cursor: pointer;
+}
+
+input[type=text]{
+  width: 15rem;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid lightgrey;
+}
+
+.link{
+  font-size: 10px;
+}
+
+
+
