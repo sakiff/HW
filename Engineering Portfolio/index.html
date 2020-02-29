@@ -1,0 +1,139 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sakif Chowdhury</title>
+    <link rel="stylesheet" href="css/flexboxgrid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+</head>
+<body>
+    <!--HEADER-->
+    <header id="main-header">
+        <div class="container">
+            <div class="row end-sm end-md end-lg middile-xs middle-sm middle-md middle-lg">
+                <div class="logo col-xs-12 col-sm-2 col-md-2 col-lg-2">
+                    <span class="primary-text"></span><img class="logo" src="img/logo.jpg"></span></<span>
+                </div>
+                
+                <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10">
+                    <nav id="navbar" class="navbar">
+                    <ul>
+                        <li class="current"><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- SHOWCASE -->
+    <section id="showcase" >
+        <div class="container">
+            <div class="row center-xs center-sm center-md center-lg middle-xs middle-sm middle-md middle-lg">
+                <img  class="desk" src="img/desk.jpg" alt="">
+                <div class="col-xs-10 col-sm-7 col-md-7 col-lg-7 showcase-content">
+                    <h1 class="welcome">Sakif Chowdhury <span class="primary-text">Engineering Porfolio</span></h1>
+                    <p class="welcome">Optimal Design | Quality Engineering | Innovative Solutions</p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--FEATURES-->
+    <section id="features">
+        <div class="container">
+            <div class="row center-xs center-sm center-md center-lg">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <h2>Projects</h2>
+                    <p>Here is a range of things we have done:</p>
+                    
+                    <!--ICON ROW 1-->
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                            <h4>FEA Design Project</h4>
+                            <img src="img/FEA.jpg" alt="" width="100%"" height="auto">
+                        </div>     
+                        
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                            <h4>Manufacturing Project</h4>
+                            <img src="img/manf.jpeg" alt="" width="100%"" height="auto">
+
+                        </div>
+
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                            <h4>HPVC Project</h4>
+                            <img src="img/hpvc.jpg" alt="" width="100%"" height="auto">
+
+                        </div>
+                    </div>
+
+                     <!--ICON ROW 2-->
+                     <div class="row">
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                            <h4>Embedded Systems Project</h4>
+                            <img src="img/systems.jpeg" alt="" width="100%"" height="auto">
+
+                        </div>     
+                        
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                            <h4>FPV Drone Project</h4>
+                            <img src="img/drone.jpg" alt="" width="100%"" height="auto">
+
+                        </div>
+
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                            <h4>AutoCAD Designs</h4>
+                            <img src="img/cad.jpeg" alt="" width="100%"" height="auto">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--FOOTER, COPYRIGHT-->
+<section id="copy">
+    <div class="container">
+        <div class="row center-xs center-sm center-md center-lg">
+            <p>Copyright &copy; 2020 | Sakif Engineering</p>
+        </div>
+    </div>
+</section>
+
+<script type="text/javascript">
+
+    TweenMax.from(".showcase-content", 3, {
+        delay: .75,
+        opacity:0,
+        y: -60,
+        ease: Expo.easeInOut
+    })
+
+    TweenMax.from(".logo", 3, {
+        delay: 0,
+        opacity:0,
+        y: -60,
+        ease: Expo.easeInOut
+    })
+
+    TweenMax.from(".navbar", 3, {
+        delay: 0,
+        opacity:0,
+        y: -60,
+        ease: Expo.easeInOut
+    })
+
+
+
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,234 @@
+body{
+    font-family: courier;
+    font-size: 15px;
+    line-height: 1.5em;
+    padding: 0;
+}
+
+.logo{
+    height:30px;
+    width: 30px;
+    position: relative;
+    float: left;
+    float: top;
+    margin-bottom:5px;
+}
+
+
+.container{
+    margin:auto;
+}
+
+img{
+    width: 75%;
+}
+
+.primary-text{
+    color: rgb(43, 133, 133);
+}
+
+
+
+/* header */ 
+#main-header{
+    border-bottom: 1px solid rgb(43, 133, 133);
+    padding-top: none;
+    
+}
+
+#navbar li{
+    display: inline;
+    padding-right: 20px;
+    list-style: none; 
+    padding-top: none;
+}
+
+#navbar{
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+#navbar a{
+    text-decoration: none;
+    color:black;
+    
+
+}
+
+#navbar li.current a, #navbar a:hover{
+    color: teal;
+    border-bottom: 3px solid teal;
+    padding: none;
+    padding-bottom: 3px;
+    
+    
+}
+
+/*SHOWCASE*/
+#SHOWCASE{
+  /* background: linear-gradient(to bottom right, #003973, #e5e5be); */
+  width: 100%;
+  height: 100vh;
+  /*background: url(../img/desk.jpg);*/
+  border: none;
+  margin-bottom:30px;
+  background-position: center;
+ 
+}
+
+.desk {
+    width: auto;
+    height: 100vh;
+    z-index: -1;
+}
+
+
+#showcase .row{
+    height: 200px;
+}
+
+#showcase h1{
+    margin:o;
+    padding-bottom:2px;
+}
+
+#showcase p1{
+    color: #ccc;
+    margin: 0;
+}
+
+#showcase .showcase-content{ 
+   z-index: 1;
+   position: absolute;
+   margin-top: 250px;
+   background-color: black;
+   opacity: 80%;
+   border-radius: 50px;
+}
+
+.welcome{
+    color:white;
+}
+
+#features{
+    margin-bottom: 10px;
+    
+}
+#features p{
+    color:888;
+    margin:0;
+    margin-bottom: 40px;
+}
+/* INFO */
+#info {
+    background-color: #333; 
+    color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+/* CONTACTS*/
+
+input[type=text] {
+    width: 40%;
+    padding: 5px 10px;
+    background-color: rgb(46, 46, 46);
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid black;
+    color: rgb(192, 192, 192);
+    font-size: 14px;
+  }
+
+input::placeholder{
+    font-size: 14px;
+    color: rgb(155, 153, 153);
+}
+
+textarea{
+    padding: 10px;
+    outline: none;
+    resize: none;
+    width: 45.5%;
+    height: 30%;
+    margin-bottom: 10px;
+    background-color: rgb(46, 46, 46);
+    border-color: black;
+    font-size: 14px;
+    color: rgb(192, 192, 192);
+
+}
+textarea::placeholder{
+    color: rgb(155, 153, 153);
+}
+
+/*.message{
+HOW DO I POSITION MESSAGE LABEL ON UPPER RIGHT HAND?
+    float: top;
+}
+*/
+
+button{
+    width: 35%;
+    background-color: lightseagreen;
+    border:none;
+    padding: 7px;
+    cursor:pointer;
+    color: white;
+    border-radius: 30px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: calibri light;
+}
+
+#subheader{
+    background-color: black;
+    color: white;
+}
+
+
+/*FOOTER-COPYRIGHT*/
+#footer{
+    background-color: black;
+    color: white;
+}
+
+
+.about{
+    text-align: center;
+
+}
+
+#page{
+    background-color: rgb(46, 46, 46);
+    padding: 20px;
+    color: teal;
+}
+
+.touch{
+    margin-left: 13px;
+    margin-right: 13px;
+}
+
+.touchy{
+    font-size: 25px;
+}
+
+.form{
+    font-family: Calibri Light;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.offer-sub {
+    font-family: Calibri Light;
+    font-size: 25px;
+    text-transform: uppercase;  
+}
+
+.whoami{
+    font-family: Calibri Light;
+    font-size: 25px;
+    text-transform: uppercase; 
+}
